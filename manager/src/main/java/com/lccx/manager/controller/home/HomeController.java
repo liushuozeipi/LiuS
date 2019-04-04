@@ -54,6 +54,7 @@ public class HomeController {
             json.put("code","50000");
         }
         json.put("success",true);
+        System.out.println("---------develop-------");
         return json.toString();
     }
 
